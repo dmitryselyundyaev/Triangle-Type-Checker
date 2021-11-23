@@ -26,7 +26,7 @@ namespace TriangleTypeChecker
             TriangleThirdSide = trianglethirdinput;
 
         }
-        /*Метод для определения типа треугольника*/
+        /*Метод для определения типа треугольникa*/
         public string TriangleTypeByLength()
         {
             if ((TriangleFirstSide + TriangleSecondSide) > (TriangleThirdSide) && (TriangleFirstSide + TriangleThirdSide) > (TriangleSecondSide) && (TriangleSecondSide + TriangleThirdSide) > (TriangleFirstSide))
